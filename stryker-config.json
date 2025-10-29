@@ -1,0 +1,23 @@
+{
+  "strykerOptions": {
+    "projectPath": "src/HealthcareSystem.Application",
+    "testProjects": [
+      "tests/HealthcareSystem.Tests/HealthcareSystem.Tests.csproj"
+    ],
+    "mutate": [
+      "src/**/*.cs",
+      "!src/**/Properties/**/*.cs"
+    ],
+    "reporters": [
+      "html",
+      "cleartext",
+      "cleartext-progress"
+    ],
+    "thresholdHigh": 90,
+    "thresholdLow": 80,
+    "thresholdBreak": 75,
+    "concurrency": 4,
+    "maxTestDurationMS": 5000,
+    "timeoutMS": 5000
+  }
+}
