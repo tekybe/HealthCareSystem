@@ -1,6 +1,6 @@
 # Healthcare System Architecture
 
-This document serves as the single source of truth for the Healthcare System project. It explains the architecture, design patterns, principles, testing strategy, logging, and rationale behind all design decisions.
+This document explains the architecture, design patterns, principles, testing strategy, logging, and rationale behind all design decisions.
 
 ## Project Overview
 
