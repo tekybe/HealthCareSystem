@@ -1,10 +1,10 @@
-# NHS Healthcare System Architecture
+# Healthcare System Architecture
 
-This document serves as the single source of truth for the NHS Healthcare System project. It explains the architecture, design patterns, principles, testing strategy, logging, and rationale behind all design decisions.
+This document serves as the single source of truth for the Healthcare System project. It explains the architecture, design patterns, principles, testing strategy, logging, and rationale behind all design decisions.
 
 ## Project Overview
 
-The NHS Healthcare System is a clean architecture-based ASP.NET Core 8.0 application that retrieves patient information through a well-structured REST API. The system implements enterprise-level patterns including CQRS, Mediator, Repository Pattern, and Dependency Injection with comprehensive logging and validation.
+The Healthcare System is a clean architecture-based ASP.NET Core 8.0 application that retrieves patient information through a well-structured REST API. The system implements enterprise-level patterns including CQRS, Mediator, Repository Pattern, and Dependency Injection with comprehensive logging and validation.
 
 ## Project Structure
 
